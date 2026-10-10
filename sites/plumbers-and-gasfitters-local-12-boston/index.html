@@ -25,7 +25,7 @@ body{background:var(--bg);color:var(--txt);font-family:ui-sans-serif,system-ui,-
 a{color:inherit}
 .wrap{max-width:1120px;margin:0 auto;padding:0 22px}
 /* ---------- nav ---------- */
-.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:rgba(7,7,13,.72);border-bottom:1px solid var(--line)}
+.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);background:var(--navbg,rgba(7,7,13,.72));border-bottom:1px solid var(--line)}
 .nav-in{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
 .brand{font-weight:800;font-size:1.05rem;letter-spacing:.2px;text-decoration:none}
 .brand span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -56,7 +56,7 @@ h1.display .grad{background:var(--grad);-webkit-background-clip:text;background-
 .hero-note{font-size:.85rem;color:var(--muted)}
 .hero-note a{color:var(--txt);font-weight:700;text-decoration:none}
 /* floating card */
-.float-card{position:relative;background:linear-gradient(160deg,#171728,#0e0e1a);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.55);animation:floaty 6s ease-in-out infinite}
+.float-card{position:relative;background:var(--cardgrad,linear-gradient(160deg,#171728,#0e0e1a));border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.55);animation:floaty 6s ease-in-out infinite}
 .float-card::before{content:"";position:absolute;inset:-2px;border-radius:26px;background:var(--grad);opacity:.35;filter:blur(22px);z-index:-1}
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
 .fc-top{display:flex;align-items:center;gap:14px;margin-bottom:18px}
@@ -106,7 +106,7 @@ form.book{background:var(--card);border:1px solid var(--line);border-radius:22px
 .field input,.field select,.field textarea{width:100%;background:#0b0b15;border:1px solid var(--line);border-radius:12px;color:var(--txt);padding:12px 14px;font-size:.95rem;font-family:inherit}
 .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--acc2)}
 .demo-note{font-size:.78rem;color:var(--muted);margin-top:12px;text-align:center}
-.contact-card{background:linear-gradient(160deg,#171728,#0d0d18);border:1px solid var(--line);border-radius:22px;padding:30px}
+.contact-card{background:var(--cardgrad,linear-gradient(160deg,#171728,#0d0d18));border:1px solid var(--line);border-radius:22px;padding:30px}
 .contact-card h3{margin-bottom:14px;font-size:1.25rem}
 .contact-line{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px;color:#d9d9e8;font-size:.95rem}
 .contact-line a{color:#fff;font-weight:700;text-decoration:none}
@@ -140,8 +140,15 @@ footer{border-top:1px solid var(--line);padding:34px 0 110px;color:var(--muted);
   html{scroll-behavior:auto}
 }
 </style>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>:root{--bg:#0F1114;--bg2:#15181D;--card:#1A1E25;--line:rgba(255,255,255,.1);--txt:#F4F6F9;--muted:#9BA4B2;--acc1:#FF7A1A;--acc2:#FFB300;--acc3:#3D9DF2;--radius:12px;--navbg:rgba(15,17,20,.88);--cardgrad:linear-gradient(160deg,#1E232C,#12151A);--flcolor:#FF7A1A;}
+body{font-family:'Barlow',ui-sans-serif,system-ui,sans-serif}
+h1.display,h2.sec,.brand{font-family:'Barlow Condensed','Barlow',sans-serif}
+.kicker{text-transform:uppercase;letter-spacing:3px}h1.display{text-transform:uppercase;letter-spacing:.5px}.btn{border-radius:10px}.pill{border-radius:8px}
+.floaties{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden}.fl{position:absolute;color:var(--flcolor,#ff8a5c);opacity:.13;animation:drift 11s ease-in-out infinite}.fl svg{width:100%;height:100%;display:block}.fl1{width:72px;height:72px;top:11%;left:3%}.fl2{width:44px;height:44px;top:63%;left:7%;animation-delay:-3s}.fl3{width:58px;height:58px;top:20%;right:5%;animation-delay:-6s}.fl4{width:36px;height:36px;top:76%;right:9%;animation-delay:-2s;opacity:.1}.fl5{width:96px;height:96px;top:42%;left:44%;animation-delay:-8s;opacity:.07}.fl6{width:52px;height:52px;top:34%;left:16%;animation-delay:-5s;opacity:.1}@keyframes drift{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-26px) rotate(8deg)}}</style>
 </head>
 <body>
+<div class="floaties" aria-hidden="true"><span class="fl fl1"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="11 8"/><circle cx="50" cy="50" r="11" fill="currentColor"/></svg></span><span class="fl fl2"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="11 8"/><circle cx="50" cy="50" r="11" fill="currentColor"/></svg></span><span class="fl fl3"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="11 8"/><circle cx="50" cy="50" r="11" fill="currentColor"/></svg></span><span class="fl fl4"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="11 8"/><circle cx="50" cy="50" r="11" fill="currentColor"/></svg></span><span class="fl fl5"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="11 8"/><circle cx="50" cy="50" r="11" fill="currentColor"/></svg></span><span class="fl fl6"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="30" fill="none" stroke="currentColor" stroke-width="14" stroke-dasharray="11 8"/><circle cx="50" cy="50" r="11" fill="currentColor"/></svg></span></div>
 <div class="ribbon">DEMO CONCEPT</div>
 
 <header class="nav">
