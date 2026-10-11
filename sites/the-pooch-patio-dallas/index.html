@@ -88,7 +88,7 @@ a.drawer-link{display:block;padding:14px 6px;font-size:1.05rem;font-weight:600;c
 .glow-c{width:300px;height:300px;background:#ff8a3d;top:30%;left:55%;opacity:.18}
 .hero-grid{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
 .badges{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px}
-.pill{display:inline-flex;align-items:center;gap:7px;font-size:.8rem;font-weight:600;padding:7px 15px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.05);color:#e8e8f2}
+.pill{display:inline-flex;align-items:center;gap:7px;font-size:.8rem;font-weight:600;padding:7px 15px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--txt)}
 .pill .dot{width:7px;height:7px;border-radius:50%;background:#34d399;box-shadow:0 0 10px #34d399}
 h1.display{font-size:clamp(2.5rem,5.4vw,4.2rem);line-height:1.06;font-weight:800;letter-spacing:-1.5px;margin-bottom:18px}
 h1.display .grad{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
@@ -106,7 +106,7 @@ h1.display .grad{background:var(--grad);-webkit-background-clip:text;background-
 .fc-name{font-weight:700}
 .fc-sub{color:var(--muted);font-size:.88rem}
 .stars{color:#ffc531;letter-spacing:2px;font-size:1.15rem;margin:6px 0 4px}
-.fc-quote{color:#d9d9e8;font-size:.98rem;font-style:italic}
+.fc-quote{color:var(--muted);font-size:.98rem;font-style:italic}
 .fc-row{display:flex;justify-content:space-between;align-items:center;margin-top:20px;padding-top:18px;border-top:1px solid var(--line)}
 .fc-row .big{font-size:1.5rem;font-weight:800}
 .fc-row .lbl{font-size:.8rem;color:var(--muted)}
@@ -134,7 +134,7 @@ h2.sec{font-size:clamp(1.7rem,3.4vw,2.5rem);font-weight:800;letter-spacing:-.8px
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .testi{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;display:flex;flex-direction:column;gap:12px}
 .testi .stars{font-size:1rem;margin:0}
-.testi p{color:#d9d9e8;font-size:.95rem;flex:1}
+.testi p{color:var(--muted);font-size:.95rem;flex:1}
 .testi .who{color:var(--muted);font-size:.85rem}
 .testi .who strong{color:var(--txt)}
 .rating-banner{display:flex;flex-wrap:wrap;align-items:center;gap:18px;background:linear-gradient(120deg,rgba(255,138,61,.14),rgba(255,77,141,.14),rgba(139,92,246,.14));border:1px solid var(--line);border-radius:var(--radius);padding:24px 28px;margin-bottom:26px}
@@ -144,14 +144,14 @@ h2.sec{font-size:clamp(1.7rem,3.4vw,2.5rem);font-weight:800;letter-spacing:-.8px
 .book-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
 form.book{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:30px}
 .field{margin-bottom:16px}
-.field label{display:block;font-size:.85rem;font-weight:600;margin-bottom:7px;color:#d9d9e8}
+.field label{display:block;font-size:.85rem;font-weight:600;margin-bottom:7px;color:var(--txt)}
 .field input,.field select,.field textarea{width:100%;background:#0b0b15;border:1px solid var(--line);border-radius:12px;color:var(--txt);padding:12px 14px;font-size:.95rem;font-family:inherit}
 .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--acc2)}
 .demo-note{font-size:.78rem;color:var(--muted);margin-top:12px;text-align:center}
 .contact-card{background:var(--cardgrad,linear-gradient(160deg,#171728,#0d0d18));border:1px solid var(--line);border-radius:22px;padding:30px}
 .contact-card h3{margin-bottom:14px;font-size:1.25rem}
-.contact-line{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px;color:#d9d9e8;font-size:.95rem}
-.contact-line a{color:#fff;font-weight:700;text-decoration:none}
+.contact-line{display:flex;gap:12px;align-items:flex-start;margin-bottom:14px;color:var(--muted);font-size:.95rem}
+.contact-line a{color:var(--txt);font-weight:700;text-decoration:none}
 .status-note{background:rgba(255,77,141,.1);border:1px solid rgba(255,77,141,.35);border-radius:14px;padding:16px 18px;font-size:.92rem;margin-top:18px}
 /* footer */
 footer{border-top:1px solid var(--line);padding:34px 0 110px;color:var(--muted);font-size:.88rem}
@@ -316,39 +316,6 @@ h1.display,h2.sec,.brand{font-family:'Baloo 2','Quicksand',sans-serif}
 
 <section class="block" id="faq"><div class="wrap"><span class="kicker">Good to know</span><h2 class="sec">Questions, answered</h2><div class="faq-list"><details class="faq"><summary>Does my pet need an appointment?</summary><p>Appointments are best so we can give your pet our full attention — but call us, we sometimes squeeze in same-day visits.</p></details><details class="faq"><summary>My pet gets anxious. Is grooming stressful?</summary><p>We go slow, use calm handling, and never rush. Tell us their quirks when you book.</p></details><details class="faq"><summary>Do you deal with matted coats?</summary><p>Yes — we&#x27;ll assess the coat and recommend the kindest option, from careful de-matting to a fresh-start cut.</p></details><details class="faq"><summary>What products do you use?</summary><p>Gentle, pet-safe shampoos — hypoallergenic options available on request.</p></details></div></div></section>
 
-<section class="block" id="gallery">
-  <div class="wrap">
-    <span class="kicker">Our regulars</span>
-    <h2 class="sec">Pups who love The Pooch Patio</h2>
-    <p class="sec-sub">Happy clients, straight from the shop’s own photo wall.</p>
-    <div class="gal-grid">
-      <img src="images/pup-1.jpg" alt="Happy pup at The Pooch Patio" loading="lazy">
-      <img src="images/pup-2.jpg" alt="Happy pup at The Pooch Patio" loading="lazy">
-      <img src="images/pup-3.jpg" alt="Happy pup at The Pooch Patio" loading="lazy">
-      <img src="images/pup-4.jpg" alt="Happy pup at The Pooch Patio" loading="lazy">
-      <img src="images/pup-5.png" alt="Happy pup at The Pooch Patio" loading="lazy">
-    </div>
-  </div>
-</section>
-<section class="block" id="transformations">
-  <div class="wrap">
-    <span class="kicker">Transformations</span>
-    <h2 class="sec">Fresh grooms, straight from our clients</h2>
-    <p class="sec-sub">Customer-posted grooming results — this is what a Pooch Patio visit does.</p>
-    <div class="testi" style="max-width:660px;margin:6px auto 24px">
-      <div class="stars">★★★★★</div>
-      <p>"Brought my little pup here for a cut — he needed it desperately. The service was exceptional. Definitely coming here again for his future cuts. Below are the before and afters!"</p>
-      <div class="who"><strong>Matt R.</strong> · Google review</div>
-    </div>
-    <div class="gal-grid">
-      <img src="images/review-1.jpg" alt="Freshly groomed poodle — photo from a Yelp review" loading="lazy">
-      <img src="images/review-2.jpg" alt="Freshly groomed poodle — photo from a Yelp review" loading="lazy">
-      <img src="images/review-3.jpg" alt="Freshly groomed poodle — photo from a Yelp review" loading="lazy">
-      <img src="images/review-4.jpg" alt="Happy pup — photo from a Yelp review" loading="lazy">
-    </div>
-    <p class="sec-sub" style="margin-top:10px;font-size:.82rem">📷 Real photos posted by customers in their Yelp reviews.</p>
-  </div>
-</section>
 <section class="block" id="book">
   <div class="wrap">
     <span class="kicker">Book now</span>
