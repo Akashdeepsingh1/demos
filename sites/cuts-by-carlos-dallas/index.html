@@ -32,6 +32,29 @@ a{color:inherit}
 .nav-links{display:flex;gap:22px;align-items:center}
 .nav-links a{text-decoration:none;color:var(--muted);font-size:.93rem}
 .nav-links a:hover{color:var(--txt)}
+.hamburger{display:none;background:none;border:0;cursor:pointer;padding:10px;z-index:101}
+.hamburger span{display:block;width:24px;height:3px;background:var(--txt);border-radius:2px;margin:5px 0}
+.drawer{position:fixed;top:0;right:-320px;width:300px;max-width:85vw;height:100dvh;background:var(--bg2);border-left:1px solid var(--line);z-index:102;padding:76px 26px 26px;transition:right .3s ease;overflow-y:auto}
+.drawer.open{right:0}
+.drawer-overlay{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:101;opacity:0;pointer-events:none;transition:opacity .3s}
+.drawer-overlay.open{opacity:1;pointer-events:auto}
+.drawer-links{display:flex;flex-direction:column;gap:4px}
+a.drawer-link{display:block;padding:14px 6px;font-size:1.05rem;font-weight:600;color:var(--txt);text-decoration:none;border-bottom:1px solid var(--line)}
+.drawer-links .btn{margin-top:14px;text-align:center}
+.drawer-close{position:absolute;top:18px;right:20px;background:var(--card);border:1px solid var(--line);color:var(--txt);width:42px;height:42px;border-radius:12px;font-size:1.15rem;cursor:pointer}
+.real-tagline{margin-top:14px;font-size:1.02rem;color:var(--muted);font-style:italic;border-left:3px solid var(--pri);padding-left:14px;max-width:34rem}
+.promo-banner{background:linear-gradient(92deg,var(--pri),var(--acc));color:#fff;border-radius:18px;padding:18px 26px;margin:0 auto;max-width:1180px;display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.promo-banner strong{font-size:1.02rem}
+.promo-wrap{padding:26px 20px 0}
+.video-wrap{position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:20px;border:1px solid var(--line);background:#000}
+.video-wrap iframe,.video-wrap video{position:absolute;top:0;left:0;width:100%;height:100%;border:0}
+.team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-top:22px}
+.team-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;text-align:center}
+.team-avatar{width:64px;height:64px;border-radius:50%;margin:0 auto 12px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;font-weight:800;color:#fff;background:linear-gradient(135deg,var(--pri),var(--acc))}
+.team-card strong{display:block;font-size:1rem}
+.team-card span{color:var(--muted);font-size:.85rem}
+.loc-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.loc-chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:9px 18px;font-size:.9rem;color:var(--txt)}
 .btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:999px;padding:13px 28px;border:0;cursor:pointer;font-size:1rem;transition:transform .18s ease,box-shadow .18s ease}
 .btn-primary{background:var(--grad);color:#fff;box-shadow:0 8px 30px rgba(255,77,141,.35)}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 36px rgba(255,77,141,.5)}
@@ -128,7 +151,8 @@ footer{border-top:1px solid var(--line);padding:34px 0 110px;color:var(--muted);
   .svc-grid,.testi-grid{grid-template-columns:1fr 1fr}
   .book-grid{grid-template-columns:1fr}
   .trust-in{grid-template-columns:repeat(2,1fr)}
-  .nav-links a.nav-hide{display:none}
+  .nav-links{display:none}
+  .hamburger{display:block}
 }
 @media(max-width:560px){
   .svc-grid,.testi-grid{grid-template-columns:1fr}
@@ -155,13 +179,21 @@ h1.display,h2.sec,.brand{font-family:'Playfair Display',Georgia,serif}
   <div class="wrap nav-in">
     <a class="brand" href="#">Cuts By Carlos <span>• Dallas</span></a>
     <nav class="nav-links">
-      <a class="nav-hide" href="#services">Services</a>
-      <a class="nav-hide" href="#reviews">Reviews</a>
-      <a class="nav-hide" href="#book">Book</a>
+      <a href="#services">Services</a><a href="#reviews">Reviews</a><a href="#book">Book</a>
       <a class="btn btn-ghost btn-sm" href="tel:+12145876425">Call +12145876425</a>
     </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
   </div>
 </header>
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="drawer" aria-label="Site navigation">
+  <button class="drawer-close" id="drawerClose" aria-label="Close menu">✕</button>
+  <nav class="drawer-links">
+    <a class="drawer-link" href="#services">Services</a><a class="drawer-link" href="#reviews">Reviews</a><a class="drawer-link" href="#book">Book</a>
+    <a class="btn btn-primary" href="tel:+12145876425">Call +12145876425</a>
+    <a class="btn btn-ghost" href="#book">Book online</a>
+  </nav>
+</aside>
 
 <section class="hero">
   <div class="glow glow-a"></div><div class="glow glow-b"></div><div class="glow glow-c"></div>
@@ -174,6 +206,7 @@ h1.display,h2.sec,.brand{font-family:'Playfair Display',Georgia,serif}
       </div>
       <h1 class="display">Dallas’s trusted <span class="grad">barbershops</span>, done right.</h1>
       <p class="lede"><strong>Cuts By Carlos</strong> keeps Dallas comfortable with fast, honest barbershops service — backed by a <strong>5.0-star rating across 45 reviews</strong>. One call and we’re on our way.</p>
+      <p class="real-tagline">Check out Cuts By Carlos LLC in Dallas - explore pricing, reviews, and open appointments online 24/7!</p>
       <div class="hero-ctas">
         <a class="btn btn-primary" href="#book">Book Service</a>
         <a class="btn btn-ghost" href="tel:+12145876425">Call +12145876425</a>
@@ -202,6 +235,8 @@ h1.display,h2.sec,.brand{font-family:'Playfair Display',Georgia,serif}
   </div>
 </section>
 
+
+
 <div class="trust">
   <div class="wrap trust-in">
     <div><div class="num"><span class="grad">5.0★</span></div><div class="cap">Average rating</div></div>
@@ -217,15 +252,19 @@ h1.display,h2.sec,.brand{font-family:'Playfair Display',Georgia,serif}
     <h2 class="sec">Complete barbershops services in Dallas</h2>
     <p class="sec-sub">From quick fixes to full replacements — licensed, tidy, and upfront about pricing.</p>
     <div class="svc-grid">
-      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.5-2.5 2.1-2.1z"/></svg></div><h3>Precision Cuts</h3><p>Fast, done-right-the-first-time work by experienced pros.</p></div>
-      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg></div><h3>Beard Trims</h3><p>Upfront pricing before we start — no surprises.</p></div>
-      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div><h3>Hot-Towel Shaves</h3><p>Neat, careful work that respects your home.</p></div>
-      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3"/></svg></div><h3>Kids&#x27; Cuts</h3><p>Fast, done-right-the-first-time work by experienced pros.</p></div>
-      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></div><h3>Walk-ins Welcome</h3><p>Upfront pricing before we start — no surprises.</p></div>
-      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9M3 12V6m0 6h6"/></svg></div><h3>Online Booking</h3><p>Neat, careful work that respects your home.</p></div>
+      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L4 17l3 3 5.3-5.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.5-2.5 2.1-2.1z"/></svg></div><h3>Booksy logo</h3><p>Fast, done-right-the-first-time work by experienced pros.</p></div>
+      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg></div><h3>Skin care</h3><p>Upfront pricing before we start — no surprises.</p></div>
+      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div><h3>Wellness and spa</h3><p>Neat, careful work that respects your home.</p></div>
+      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M19 5l-3 3M8 16l-3 3"/></svg></div><h3>Medical aesthetics</h3><p>Fast, done-right-the-first-time work by experienced pros.</p></div>
+      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg></div><h3>Hair removal</h3><p>Upfront pricing before we start — no surprises.</p></div>
+      <div class="svc"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9M3 12V6m0 6h6"/></svg></div><h3>Home services</h3><p>Neat, careful work that respects your home.</p></div>
     </div>
   </div>
 </section>
+
+
+
+
 
 <section class="block" id="reviews" style="background:var(--bg2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
   <div class="wrap">
@@ -243,6 +282,8 @@ h1.display,h2.sec,.brand{font-family:'Playfair Display',Georgia,serif}
   </div>
 </section>
 
+
+
 <section class="block" id="book">
   <div class="wrap">
     <span class="kicker">Book now</span>
@@ -253,12 +294,12 @@ h1.display,h2.sec,.brand{font-family:'Playfair Display',Georgia,serif}
         <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" required placeholder="Jane Doe"></div>
         <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" required placeholder="(408) 555-1234"></div>
         <div class="field"><label for="f-service">Service needed</label><select id="f-service" name="service"><option value="">Select a service…</option>
-        <option>Precision Cuts</option>
-        <option>Beard Trims</option>
-        <option>Hot-Towel Shaves</option>
-        <option>Kids&#x27; Cuts</option>
-        <option>Walk-ins Welcome</option>
-        <option>Online Booking</option>
+        <option>Booksy logo</option>
+        <option>Skin care</option>
+        <option>Wellness and spa</option>
+        <option>Medical aesthetics</option>
+        <option>Hair removal</option>
+        <option>Home services</option>
         <option>Something else / not sure</option></select></div>
         <div class="field"><label for="f-time">Preferred time</label><input id="f-time" name="time" placeholder="e.g. Tomorrow morning"></div>
         <button class="btn btn-primary" type="submit" style="width:100%">Request my slot</button>
@@ -291,6 +332,16 @@ document.getElementById('bookForm').addEventListener('submit', function(e){
   note.textContent = 'Thanks! In the live version this request goes straight to the business calendar.';
   note.style.color = '#34d399';
 });
+(function(){
+  var h=document.getElementById('hamburger'),d=document.getElementById('drawer'),
+      o=document.getElementById('drawerOverlay'),c=document.getElementById('drawerClose');
+  function open(){d.classList.add('open');o.classList.add('open');document.body.style.overflow='hidden';}
+  function close(){d.classList.remove('open');o.classList.remove('open');document.body.style.overflow='';}
+  if(h)h.addEventListener('click',open);
+  if(c)c.addEventListener('click',close);
+  if(o)o.addEventListener('click',close);
+  if(d)d.querySelectorAll('a').forEach(function(a){a.addEventListener('click',close);});
+})();
 </script>
 </body>
 </html>
