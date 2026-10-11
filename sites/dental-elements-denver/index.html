@@ -139,7 +139,7 @@ footer{border-top:1px solid var(--line);padding:34px 0 110px;color:var(--muted);
   .float-card,.badge-mini{animation:none}
   html{scroll-behavior:auto}
 }
-</style>
+.gal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}.gal-grid img{width:100%;height:230px;object-fit:cover;border-radius:14px;border:1px solid var(--line);transition:transform .3s}.gal-grid img:hover{transform:scale(1.03)}</style>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
 <style>:root{--bg:#F7FBFC;--bg2:#EAF3F4;--card:#FFFFFF;--line:rgba(30,110,120,.14);--txt:#123239;--muted:#647E84;--acc1:#1FA79B;--acc2:#7BC96F;--acc3:#E9B44C;--radius:20px;--navbg:rgba(247,251,252,.88);--cardgrad:linear-gradient(160deg,#ffffff,#EAF3F4);--flcolor:#1FA79B;}
 body{font-family:'Jost',ui-sans-serif,system-ui,sans-serif}
@@ -272,6 +272,20 @@ h1.display,h2.sec,.brand{font-family:'Playfair Display',Georgia,serif}
         <div class="status-note">Heads up: this business&#x27;s current website is outdated — it&#x27;s costing calls and bookings. That&#x27;s exactly the gap this demo fixes.</div>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="block" id="gallery">
+  <div class="wrap">
+    <span class="kicker">Smile gallery</span>
+    <h2 class="sec">The Dental Elements difference</h2>
+    <p class="sec-sub">Digital smile design, modern care, and a clinic built for comfort.</p>
+    <div class="gal-grid">
+      <img src="images/de-1.webp" alt="Digital smile makeover preview on a tablet" loading="lazy">
+      <img src="images/de-2.webp" alt="Digital denture design with tooth shade guide" loading="lazy">
+      <img src="images/de-3.webp" alt="Inside the modern Dental Elements clinic" loading="lazy">
+    </div>
+    <p class="sec-sub" style="margin-top:10px;font-size:.82rem">📷 Real photos from Dental Elements' own website.</p>
   </div>
 </section>
 
