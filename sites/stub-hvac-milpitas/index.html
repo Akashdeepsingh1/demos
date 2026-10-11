@@ -386,7 +386,7 @@ document.getElementById('bookForm').addEventListener('submit', function(e){
     var svc=document.getElementById('estService').value||'this service';
     var when=document.getElementById('estWhen').value;
     var out=document.getElementById('estOut');
-    var t='Most '+svc.toLowerCase()+' visits run '+sec.getAttribute('data-low')+'\u2013'+sec.getAttribute('data-high')+'.';
+    var t='Typical '+svc.toLowerCase()+' pricing runs '+sec.getAttribute('data-low')+'\u2013'+sec.getAttribute('data-high')+'.';
     if(when.indexOf('ASAP')>-1||when.indexOf('mergency')>-1){t+=' After-hours rates may apply for urgent calls.';}
     t+=' Book below for an exact, free quote.';
     out.textContent=t;out.classList.add('show');
