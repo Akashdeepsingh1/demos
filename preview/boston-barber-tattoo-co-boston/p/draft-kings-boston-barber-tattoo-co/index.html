@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Draft Kings — Boston Barber &amp; Tattoo Co. | Boston Barber &amp; Tattoo Co.</title>
+<meta name="description" content="Barber Shop &amp; Tattoo Parlor in the North End &amp; Beacon Hill of Boston">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#FFFFFF; --bg2:#F5F5F7; --card:#FFFFFF; --line:rgba(0,0,0,.08);
+  --txt:#1D1D1F; --muted:#6E6E73; --acc:#0071E3;
+  --darkbg:#000000; --darktxt:#F5F5F7; --darkmuted:#86868B;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--txt);
+  font-family:-apple-system,BlinkMacSystemFont,"Inter","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:17px;line-height:1.5;-webkit-font-smoothing:antialiased}
+h1,h2,h3{letter-spacing:-0.015em;line-height:1.08;margin:0}
+h1.hero-h{font-size:clamp(44px,6vw,80px);font-weight:700;letter-spacing:-0.015em;line-height:1.05}
+h2.sec{font-size:clamp(34px,4vw,56px);font-weight:600;letter-spacing:-0.01em;line-height:1.08}
+h3{font-size:21px;font-weight:600}
+p{margin:0}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.prose{max-width:640px;margin:0 auto}
+.prose p{color:var(--muted);margin:0 0 18px;font-size:19px;line-height:1.5}
+.prose h2{margin:34px 0 14px;font-size:28px}
+
+/* ribbon */
+.ribbon{position:fixed;top:10px;right:-34px;transform:rotate(35deg);background:var(--txt);color:#fff;
+  font-size:10px;letter-spacing:.14em;padding:5px 40px;z-index:200}
+
+/* nav: 44px translucent */
+.nav{position:fixed;top:0;left:0;right:0;height:52px;z-index:100;
+  background:rgba(255,255,255,.8);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--line)}
+.nav-in{max-width:1200px;margin:0 auto;padding:0 24px;height:52px;
+  display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
+.brand{font-size:15px;font-weight:600;color:var(--txt);text-decoration:none;justify-self:start}
+.brand:hover{text-decoration:none}
+.brand small{color:var(--muted);font-weight:400}
+.nav-links{display:flex;gap:26px;justify-self:center}
+.nav-links a{font-size:12px;color:var(--txt);opacity:.8;text-decoration:none}
+.nav-links a:hover{opacity:1;text-decoration:none}
+.nav-book{justify-self:end}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:980px;
+  font-weight:500;text-decoration:none;cursor:pointer;border:0;font-size:17px;padding:12px 28px}
+.btn:hover{text-decoration:none}
+.btn-primary{background:var(--acc);color:#fff}
+.btn-primary:hover{background:#0077ED}
+.btn-sm{font-size:14px;padding:7px 18px}
+.link-more{font-size:17px}
+main{padding-top:52px}
+
+/* mobile nav */
+.hamburger{display:none;background:none;border:0;cursor:pointer;padding:10px;justify-self:end}
+.hamburger span{display:block;width:20px;height:2px;background:var(--txt);margin:4px 0;border-radius:2px}
+.moverlay{position:fixed;inset:0;background:#fff;z-index:150;display:none;flex-direction:column;
+  padding:80px 32px 40px;overflow-y:auto}
+.moverlay.open{display:flex}
+.moverlay a.mlink{font-size:28px;font-weight:600;color:var(--txt);text-decoration:none;
+  padding:10px 0;opacity:0;transform:translateY(12px);transition:opacity .4s,transform .4s}
+.moverlay.open a.mlink{opacity:1;transform:none}
+.moverlay a.msub{font-size:19px;font-weight:400;color:var(--muted);padding:6px 0 6px 18px}
+.moverlay .btn{margin-top:24px}
+.mclose{position:absolute;top:14px;right:20px;background:none;border:0;font-size:28px;cursor:pointer;color:var(--muted)}
+
+/* sections */
+.block{padding:120px 0}
+.block.tint{background:var(--bg2)}
+.center{text-align:center}
+.eyebrow{font-size:17px;font-weight:600;color:var(--acc);margin-bottom:14px}
+.eyebrow.muted{color:var(--muted)}
+.sec-sub{font-size:clamp(19px,2vw,28px);font-weight:400;color:var(--muted);line-height:1.2;
+  max-width:640px;margin:16px auto 0}
+.center .sec-sub{margin-left:auto;margin-right:auto}
+.cta-pair{display:flex;gap:26px;align-items:center;justify-content:center;margin-top:30px;flex-wrap:wrap}
+
+/* hero */
+.hero{padding:90px 0 100px;text-align:center}
+.hero .rating-line{margin-top:26px;color:var(--muted);font-size:17px}
+.hero-frame{max-width:1200px;margin:56px auto 0;padding:0 24px}
+.hero-frame img{width:100%;height:auto;border-radius:18px;display:block}
+
+/* service tiles */
+.tiles{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:56px;text-align:left}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:36px;
+  text-decoration:none;color:var(--txt);display:block;transition:box-shadow .25s}
+.tile:hover{box-shadow:0 4px 24px rgba(0,0,0,.06);text-decoration:none}
+.tile h3{margin:0 0 10px}
+.tile p{color:var(--muted);font-size:17px;margin:0 0 14px}
+
+/* dark band */
+.band-dark{background:var(--darkbg);color:var(--darktxt)}
+.band-dark .eyebrow{color:var(--darkmuted)}
+.band-dark h2.sec{color:var(--darktxt)}
+.band-dark .sec-sub{color:var(--darkmuted)}
+
+/* reviews */
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:56px;text-align:left}
+.rev{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;
+  padding:30px;display:flex;flex-direction:column;gap:14px}
+.rev .stars{color:#FFD60A;letter-spacing:2px;font-size:15px}
+.rev p{color:var(--darktxt);font-size:16px;line-height:1.55}
+.rev .who{color:var(--darkmuted);font-size:14px;margin-top:auto}
+.rev-src{text-align:center;color:var(--darkmuted);font-size:14px;margin-top:34px}
+
+/* video */
+.video-wrap{max-width:980px;margin:56px auto 0}
+.video-wrap iframe,.video-wrap video{width:100%;aspect-ratio:16/9;border:0;border-radius:18px;display:block}
+
+/* team */
+.team-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px;margin-top:56px}
+.team-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px;text-align:center}
+.team-card .tav{width:64px;height:64px;border-radius:50%;background:var(--bg2);color:var(--txt);
+  display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:600;margin:0 auto 14px}
+.team-card strong{display:block;font-size:17px}
+.team-card span{color:var(--muted);font-size:14px}
+
+/* estimator + faq as plain rows */
+.rows{max-width:720px;margin:40px auto 0;text-align:left}
+.erow{display:flex;justify-content:space-between;align-items:center;gap:16px;
+  padding:20px 4px;border-bottom:1px solid var(--line);font-size:17px}
+.erow small{color:var(--muted)}
+.est-box{max-width:720px;margin:40px auto 0;display:grid;gap:12px}
+.est-box select,.book .field input,.book .field select{font:inherit;padding:14px 16px;border-radius:12px;
+  border:1px solid var(--line);background:var(--card);color:var(--txt);width:100%}
+.est-out{font-size:17px;color:var(--muted);min-height:1.5em}
+details.faq{border-bottom:1px solid var(--line);padding:20px 4px}
+details.faq summary{font-size:19px;font-weight:500;cursor:pointer;list-style:none}
+details.faq summary::-webkit-details-marker{display:none}
+details.faq p{color:var(--muted);margin:12px 0 0;font-size:17px}
+
+/* page hero (inner pages) */
+.page-hero{padding:90px 0 60px;text-align:center}
+.page-hero h1{font-size:clamp(40px,5vw,64px);font-weight:700}
+.crumbs{font-size:14px;color:var(--muted);margin-bottom:18px}
+.crumbs a{color:var(--muted)}
+
+/* generic cards (services index etc.) */
+.rel-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:48px}
+.rel-card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px;
+  text-decoration:none;color:var(--txt);display:block;transition:box-shadow .25s}
+.rel-card:hover{box-shadow:0 4px 24px rgba(0,0,0,.06);text-decoration:none}
+.rel-card strong{display:block;font-size:19px;margin-bottom:8px}
+.rel-card span{color:var(--muted);font-size:16px}
+.blog-list{max-width:720px;margin:40px auto 0;display:grid;gap:0;text-align:left}
+.blog-row{display:flex;justify-content:space-between;gap:14px;align-items:center;
+  padding:22px 4px;border-bottom:1px solid var(--line);text-decoration:none;color:var(--txt)}
+.blog-row:hover{text-decoration:none}
+.blog-row strong{font-size:19px;font-weight:500}
+.blog-row span{color:var(--muted);font-size:15px;white-space:nowrap}
+.hours-table{margin:24px auto 0;border-collapse:collapse;font-size:17px}
+.hours-table td{padding:10px 18px;border-bottom:1px solid var(--line)}
+.hours-table td:last-child{color:var(--muted);text-align:right}
+
+/* contact */
+.contact-lines{max-width:640px;margin:36px auto;display:grid;gap:14px;font-size:19px;text-align:center}
+.book{max-width:560px;margin:40px auto 0;display:grid;gap:14px;text-align:left}
+.book .field label{display:block;font-size:14px;color:var(--muted);margin-bottom:6px}
+.fine{font-size:12px;color:var(--muted)}
+
+/* footer */
+footer{background:var(--bg2);padding:60px 0 40px;margin-top:0}
+.foot-cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px;max-width:1200px;margin:0 auto;padding:0 24px}
+.foot-cols h4{font-size:14px;font-weight:600;margin:0 0 14px}
+.foot-cols a{display:block;font-size:13px;color:var(--muted);text-decoration:none;padding:5px 0}
+.foot-cols a:hover{color:var(--txt)}
+.foot-base{max-width:1200px;margin:40px auto 0;padding:24px 24px 0;border-top:1px solid var(--line);
+  display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+
+/* mobile bottom bar (replaces floating buttons) */
+.mbar{display:none;position:fixed;bottom:0;left:0;right:0;z-index:100;
+  background:rgba(255,255,255,.85);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);
+  border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom));
+  gap:10px}
+.mbar a{flex:1;text-align:center}
+
+/* scroll reveal: content is visible by default; JS adds .js to <html> to enable */
+.rv{opacity:1;transform:none}
+html.js .rv{opacity:0;transform:translateY(24px);transition:opacity .6s cubic-bezier(.25,.1,.25,1),transform .6s cubic-bezier(.25,.1,.25,1)}
+html.js .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  html.js .rv{opacity:1;transform:none;transition:none}
+  html{scroll-behavior:auto}
+}
+
+@media (max-width:760px){
+  .block{padding:72px 0}
+  .nav-links{display:none}
+  .nav-book{display:none}
+  .hamburger{display:block}
+  .nav-in{grid-template-columns:1fr auto}
+  .brand{justify-self:start}
+  .tiles,.rel-grid,.rev-grid{grid-template-columns:1fr}
+  .foot-cols{grid-template-columns:1fr}
+  .mbar{display:flex}
+  body{padding-bottom:70px}
+  .hero{padding:60px 0 72px}
+}
+
+.kicker{font-size:17px;font-weight:600;color:var(--acc);margin-bottom:14px;display:block}
+.team-avatar{width:64px;height:64px;border-radius:50%;background:var(--bg2);color:var(--txt);
+  display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:600;margin:0 auto 14px}
+.cta-band{max-width:720px;margin:0 auto;text-align:center;padding:20px 0}
+.cta-band .sec{margin-bottom:8px}
+.cta-band .sec-sub{margin-bottom:24px}
+.contact-line{font-size:19px;padding:8px 0}
+.demo-note{color:var(--muted);font-size:13px}
+.prose .rel-grid{margin-top:24px}
+</style>
+<script>document.documentElement.className += ' js';</script>
+</head>
+<body>
+<div class="ribbon">DEMO</div>
+<header class="nav"><div class="nav-in">
+  <a class="brand" href="/demos/preview/boston-barber-tattoo-co-boston/">Boston Barber &amp; Tattoo Co.</a>
+  <nav class="nav-links"><a href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Book A Tattoo Appointment</a><a href="/demos/preview/boston-barber-tattoo-co-boston/about/">About</a><a href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Book Appointment</a></nav>
+  <span class="nav-book"><a class="btn btn-primary btn-sm" href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Book</a></span>
+  <button class="hamburger" id="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+</div></header>
+<div class="moverlay" id="moverlay">
+  <button class="mclose" id="mclose" aria-label="Close menu">✕</button>
+  <a class="mlink" href="/demos/preview/boston-barber-tattoo-co-boston/">Home</a><a class="mlink" href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Book A Tattoo Appointment</a><a class="mlink" href="/demos/preview/boston-barber-tattoo-co-boston/about/">About</a><a class="mlink" href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Book Appointment</a>
+  <a class="btn btn-primary" href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Book now</a>
+</div>
+<main>
+<section class="page-hero"><div class="wrap"><div class="crumbs"><a href="/demos/preview/boston-barber-tattoo-co-boston/">Home</a> &rsaquo; <span>Draft Kings — Boston Barber &amp; Tattoo Co.</span></div><span class="kicker">Info</span><h1>Draft Kings — Boston Barber &amp; Tattoo Co.</h1></div></section><section class="block"><div class="wrap"><div class="prose"><h2>Barber Shop &amp; Tattoo Parlor in the North End &amp; Beacon Hill of Boston</h2><h2>Barber Shop &amp; Tattoo Parlor in the North End &amp; Beacon Hill of Boston</h2><h2>DK</h2><h2>DRAFTKINGS</h2><p>Do you work for Draft Kings? Did you know that we offer you complimentary men’s and women’s hair services right in HQ? Well now you do! Stop by and see Kali for everything from Bald Fades to blowouts-we promise you won’t be disappointed! We’ve been working with DraftKings since 2015 and love to continue keeping the staff looking fresh. North End617-742-0611113 Salem StBoston, MA 02113</p><h2>BBtc</h2><p>Beacon Hill617-263-0150124 Bowdoin StBoston, MA 02108 Featured Local Spot on spoteasy.com</p></div></div></section><div class="wrap"><div class="cta-band"><div><h2 class="sec" style="margin:0">Ready when you are.</h2><p class="sec-sub" style="margin:6px 0 0">Book online in under a minute — or just call.</p></div><div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn btn-primary" href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Book now</a><a class="btn btn-ghost" href="tel:+16177420611">Call (617) 742-0611</a></div></div></div>
+</main>
+<footer>
+  <div class="foot-cols">
+    <div><h4>Boston Barber &amp; Tattoo Co.</h4>
+      <a href="/demos/preview/boston-barber-tattoo-co-boston/about/">About</a><a href="/demos/preview/boston-barber-tattoo-co-boston/blog/">Blog</a>
+      <a href="/demos/preview/boston-barber-tattoo-co-boston/promos/">Promos</a><a href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Contact</a></div>
+    <div><h4>Explore</h4><a href="/demos/preview/boston-barber-tattoo-co-boston/services/">Services</a><a href="/demos/preview/boston-barber-tattoo-co-boston/team/">Team</a><a href="/demos/preview/boston-barber-tattoo-co-boston/contact/">Contact</a></div>
+  </div>
+  <div class="foot-base">
+    <span>, Boston, MA · (617) 742-0611</span>
+    <span>© 2026 Boston Barber &amp; Tattoo Co.. Demo concept website.</span>
+  </div>
+</footer>
+<div class="mbar">
+  <a class="btn btn-primary btn-sm" href="tel:+16177420611">Call</a>
+  <a class="btn btn-primary btn-sm" href="sms:+16177420611" style="background:#34C759">Text</a>
+</div>
+<script>
+(function(){
+  var h=document.getElementById('hamburger'),m=document.getElementById('moverlay'),
+      c=document.getElementById('mclose');
+  function open(){m.classList.add('open');document.body.style.overflow='hidden';}
+  function close(){m.classList.remove('open');document.body.style.overflow='';}
+  if(h)h.addEventListener('click',open);
+  if(c)c.addEventListener('click',close);
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',close);});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},
+    {threshold:0.15});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
+  /* safety: never leave content hidden */
+  setTimeout(function(){document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in');});},2500);
+})();
+</script>
+</body>
+</html>
