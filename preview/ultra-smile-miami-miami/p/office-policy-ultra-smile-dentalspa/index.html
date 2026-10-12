@@ -179,11 +179,12 @@ footer{background:var(--bg2);padding:60px 0 40px;margin-top:0}
   gap:10px}
 .mbar a{flex:1;text-align:center}
 
-/* scroll reveal */
-.rv{opacity:0;transform:translateY(24px);transition:opacity .6s cubic-bezier(.25,.1,.25,1),transform .6s cubic-bezier(.25,.1,.25,1)}
-.rv.in{opacity:1;transform:none}
+/* scroll reveal: content is visible by default; JS adds .js to <html> to enable */
+.rv{opacity:1;transform:none}
+html.js .rv{opacity:0;transform:translateY(24px);transition:opacity .6s cubic-bezier(.25,.1,.25,1),transform .6s cubic-bezier(.25,.1,.25,1)}
+html.js .rv.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){
-  .rv{opacity:1;transform:none;transition:none}
+  html.js .rv{opacity:1;transform:none;transition:none}
   html{scroll-behavior:auto}
 }
 
@@ -211,6 +212,7 @@ footer{background:var(--bg2);padding:60px 0 40px;margin-top:0}
 .demo-note{color:var(--muted);font-size:13px}
 .prose .rel-grid{margin-top:24px}
 </style>
+<script>document.documentElement.className += ' js';</script>
 </head>
 <body>
 <div class="ribbon">DEMO</div>
@@ -222,7 +224,7 @@ footer{background:var(--bg2);padding:60px 0 40px;margin-top:0}
 </div></header>
 <div class="moverlay" id="moverlay">
   <button class="mclose" id="mclose" aria-label="Close menu">✕</button>
-  <a class="mlink" href="/demos/preview/ultra-smile-miami-miami/">Home</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/team/">Our Doctors</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/services/">Services</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#injectables-fillers">— Injectables &amp; Fillers</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#cosmetic-dentistry">— Cosmetic Dentistry</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#night-guards">— Night Guards</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#veneers">— Veneers</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#invisible-braces">— Invisible Braces</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#implants-and-bone-grafts">— Implants and Bone Grafts</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#general-dentistry">— General Dentistry</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#composite-fillings">— Composite Fillings</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/services/">Patient Info</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/">— Post-procedure</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/locations/">— Office Financial &amp; Insurance Policy</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/locations/">Locations</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/locations/best-dentist-in-downtown-miami/">— Best Dentist in Downtown Miami</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/locations/best-dentist-in-midtown-miami/">— Best Dentist in Midtown Miami</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/blog/">Blog</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/promos/">Promos</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/contact/">Contact</a>
+  <a class="mlink" href="/demos/preview/ultra-smile-miami-miami/">Home</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/team/">Our Doctors</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/services/">Services</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#injectables-fillers">— Injectables &amp; Fillers</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#cosmetic-dentistry">— Cosmetic Dentistry</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/best-night-guards-in-miami/">— Best Night Guards in Miami</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/best-veneers-in-miami/">— Best Veneers in Miami</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/invisible-braces-in-miami/">— Invisible Braces in Miami</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/dental-implants-and-bone-grafts/">— Dental Implants and Bone Grafts</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/#general-dentistry">— General Dentistry</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/composite-fillings-in-miami/">— Composite Fillings in Miami</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/services/">Patient Info</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/services/">— Post-procedure</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/locations/">— Office Financial &amp; Insurance Policy</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/locations/">Locations</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/locations/best-dentist-in-downtown-miami/">— Best Dentist in Downtown Miami</a><a class="mlink msub" href="/demos/preview/ultra-smile-miami-miami/locations/best-dentist-in-midtown-miami/">— Best Dentist in Midtown Miami</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/blog/">Blog</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/promos/">Promos</a><a class="mlink" href="/demos/preview/ultra-smile-miami-miami/contact/">Contact</a>
   <a class="btn btn-primary" href="/demos/preview/ultra-smile-miami-miami/contact/">Book now</a>
 </div>
 <main>
@@ -257,6 +259,8 @@ footer{background:var(--bg2);padding:60px 0 40px;margin-top:0}
     if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},
     {threshold:0.15});
   document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
+  /* safety: never leave content hidden */
+  setTimeout(function(){document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in');});},2500);
 })();
 </script>
 </body>
