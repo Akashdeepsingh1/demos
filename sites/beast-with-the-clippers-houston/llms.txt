@@ -1,0 +1,11 @@
+# Beast with the Clippers
+
+> Beast with the Clippers — top-rated barbershops serving Houston, TX. Rated 4.6 stars from 24 reviews. Call (832) 403-1749 today.
+
+- Phone: (832) 403-1749
+- Location: Houston, TX
+- Category: barbershops
+- Rating: 4.6 stars from 24 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/beast-with-the-clippers-houston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Beast%20with%20the%20Clippers%20Houston&query_place_id=2273143919520642
+- Services: see the services section on the demo page.

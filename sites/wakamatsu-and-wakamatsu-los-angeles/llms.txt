@@ -1,0 +1,11 @@
+# Wakamatsu and Wakamatsu
+
+> Wakamatsu and Wakamatsu — top-rated dentists serving Los Angeles, CA. Rated 5.0 stars from 4 reviews. Call (213) 626-0561 today.
+
+- Phone: (213) 626-0561
+- Location: Los Angeles, CA
+- Category: dentists
+- Rating: 5.0 stars from 4 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/wakamatsu-and-wakamatsu-los-angeles/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Wakamatsu%20and%20Wakamatsu%20Los%20Angeles&query_place_id=1531719547778413
+- Services: see the services section on the demo page.

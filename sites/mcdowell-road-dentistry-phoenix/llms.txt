@@ -1,0 +1,11 @@
+# McDowell Road Dentistry
+
+> McDowell Road Dentistry — top-rated dentists serving Phoenix, AZ. Rated 4.5 stars from 6 reviews. Call (602) 256-0605 today.
+
+- Phone: (602) 256-0605
+- Location: Phoenix, AZ
+- Category: dentists
+- Rating: 4.5 stars from 6 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/mcdowell-road-dentistry-phoenix/
+- Google listing: https://www.google.com/maps/search/?api=1&query=McDowell%20Road%20Dentistry%20Phoenix&query_place_id=388452819974682
+- Services: see the services section on the demo page.

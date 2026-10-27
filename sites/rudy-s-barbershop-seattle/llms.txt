@@ -1,0 +1,11 @@
+# Rudy's Barbershop
+
+> Rudy's Barbershop — top-rated barbershops serving Seattle, WA. Rated 4.4 stars from 129 reviews. Call (206) 329-3008 today.
+
+- Phone: (206) 329-3008
+- Location: Seattle, WA
+- Category: barbershops
+- Rating: 4.4 stars from 129 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/rudy-s-barbershop-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Rudy%27s%20Barbershop%20Seattle&query_place_id=750820349533829
+- Services: see the services section on the demo page.

@@ -1,0 +1,11 @@
+# Classic Intown Barbershop & MEN Spa
+
+> Classic Intown Barbershop & MEN Spa — top-rated barbershops serving Atlanta, GA. Rated 5.0 stars from 39 reviews. Call (404) 521-8972 today.
+
+- Phone: (404) 521-8972
+- Location: Atlanta, GA
+- Category: barbershops
+- Rating: 5.0 stars from 39 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/classic-intown-barbershop-men-spa-atlanta/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Classic%20Intown%20Barbershop%20%26%20MEN%20Spa%20Atlanta&query_place_id=1245348366023653
+- Services: see the services section on the demo page.

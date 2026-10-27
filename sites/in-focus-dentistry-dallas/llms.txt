@@ -1,0 +1,11 @@
+# In Focus Dentistry
+
+> In Focus Dentistry — top-rated dentists serving Dallas, TX. Rated 4.5 stars from 17 reviews. Call (214) 242-0960 today.
+
+- Phone: (214) 242-0960
+- Location: Dallas, TX
+- Category: dentists
+- Rating: 4.5 stars from 17 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/in-focus-dentistry-dallas/
+- Google listing: https://www.google.com/maps/search/?api=1&query=In%20Focus%20Dentistry%20Dallas&query_place_id=367779032703663
+- Services: see the services section on the demo page.

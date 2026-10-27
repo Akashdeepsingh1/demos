@@ -1,0 +1,11 @@
+# Rex
+
+> Rex — top-rated pet grooming serving Seattle, WA. Rated 4.4 stars from 59 reviews. Call (206) 467-4440 today.
+
+- Phone: (206) 467-4440
+- Location: Seattle, WA
+- Category: pet grooming
+- Rating: 4.4 stars from 59 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/rex-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Rex%20Seattle&query_place_id=778219406708674
+- Services: see the services section on the demo page.

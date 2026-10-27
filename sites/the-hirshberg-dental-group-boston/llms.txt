@@ -1,0 +1,11 @@
+# The Hirshberg Dental Group
+
+> The Hirshberg Dental Group — dentists serving Boston, MA. Rated 4.9 stars from 47 Google reviews. Call (617) 542-8808.
+
+- Phone: (617) 542-8808
+- Location: Boston, MA
+- Category: dentists
+- Rating: 4.9 stars from 47 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/the-hirshberg-dental-group-boston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=The%20Hirshberg%20Dental%20Group%20Boston&query_place_id=781067656658547
+- Services: see the services section on the demo page.

@@ -1,0 +1,11 @@
+# Dog House
+
+> Dog House — top-rated pet grooming serving San Bruno, CA. Rated 4.2 stars from 39 reviews. Call (650) 588-5601 today.
+
+- Phone: (650) 588-5601
+- Location: San Bruno, CA
+- Category: pet grooming
+- Rating: 4.2 stars from 39 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/dog-house-san-bruno/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Dog%20House%20San%20Bruno&query_place_id=618370853071233
+- Services: see the services section on the demo page.

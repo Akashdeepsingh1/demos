@@ -1,0 +1,11 @@
+# Charles R Young
+
+> Charles R Young — top-rated dentists serving Seattle, WA. Rated 5.0 stars from 4 reviews. Call (206) 583-0550 today.
+
+- Phone: (206) 583-0550
+- Location: Seattle, WA
+- Category: dentists
+- Rating: 5.0 stars from 4 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/charles-r-young-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Charles%20R%20Young%20Seattle&query_place_id=665005245944899
+- Services: see the services section on the demo page.

@@ -1,0 +1,11 @@
+# The Pooch Patio
+
+> The Pooch Patio — top-rated pet grooming serving Dallas, TX. Rated 4.7 stars from 122 reviews. Call (214) 252-1550 today.
+
+- Phone: (214) 252-1550
+- Location: Dallas, TX
+- Category: pet grooming
+- Rating: 4.7 stars from 122 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/the-pooch-patio-dallas/
+- Google listing: https://www.google.com/maps/search/?api=1&query=The%20Pooch%20Patio%20Dallas&query_place_id=1027252167938868
+- Services: see the services section on the demo page.

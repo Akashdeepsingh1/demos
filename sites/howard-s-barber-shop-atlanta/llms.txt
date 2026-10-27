@@ -1,0 +1,11 @@
+# Howard's Barber Shop
+
+> Howard's Barber Shop — top-rated barbershops serving Atlanta, GA. Rated 5.0 stars from 2 reviews. Call (404) 522-4133 today.
+
+- Phone: (404) 522-4133
+- Location: Atlanta, GA
+- Category: barbershops
+- Rating: 5.0 stars from 2 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/howard-s-barber-shop-atlanta/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Howard%27s%20Barber%20Shop%20Atlanta&query_place_id=761895985055327
+- Services: see the services section on the demo page.

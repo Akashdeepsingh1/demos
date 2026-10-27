@@ -1,0 +1,11 @@
+# Faneuil Hall Dental Associates
+
+> Faneuil Hall Dental Associates — top-rated dentists serving Boston, MA. Rated 5.0 stars from 8 reviews. Call (617) 523-4444 today.
+
+- Phone: (617) 523-4444
+- Location: Boston, MA
+- Category: dentists
+- Rating: 5.0 stars from 8 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/faneuil-hall-dental-associates-boston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Faneuil%20Hall%20Dental%20Associates%20Boston&query_place_id=441835937872814
+- Services: see the services section on the demo page.

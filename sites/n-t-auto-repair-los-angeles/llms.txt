@@ -1,0 +1,11 @@
+# N T Auto Repair
+
+> N T Auto Repair — top-rated auto repair serving Los Angeles, CA. Rated 5.0 stars from 2 reviews. Call (213) 617-8551 today.
+
+- Phone: (213) 617-8551
+- Location: Los Angeles, CA
+- Category: auto repair
+- Rating: 5.0 stars from 2 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/n-t-auto-repair-los-angeles/
+- Google listing: https://www.google.com/maps/search/?api=1&query=N%20T%20Auto%20Repair%20Los%20Angeles&query_place_id=606710954184154
+- Services: see the services section on the demo page.

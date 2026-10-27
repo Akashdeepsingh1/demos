@@ -1,0 +1,11 @@
+# Hinga's Automotive Company
+
+> Hinga's Automotive Company — top-rated auto repair serving Dallas, TX. Rated 4.6 stars from 9 reviews. Call (214) 827-1593 today.
+
+- Phone: (214) 827-1593
+- Location: Dallas, TX
+- Category: auto repair
+- Rating: 4.6 stars from 9 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/hinga-s-automotive-company-dallas/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Hinga%27s%20Automotive%20Company%20Dallas&query_place_id=399984695451521
+- Services: see the services section on the demo page.

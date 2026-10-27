@@ -1,0 +1,11 @@
+# Downtown Denver Dental
+
+> Downtown Denver Dental — top-rated dentists serving Denver, CO. Rated 4.9 stars from 7 reviews. Call (303) 296-1825 today.
+
+- Phone: (303) 296-1825
+- Location: Denver, CO
+- Category: dentists
+- Rating: 4.9 stars from 7 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/downtown-denver-dental-denver/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Downtown%20Denver%20Dental%20Denver&query_place_id=790363005641904
+- Services: see the services section on the demo page.

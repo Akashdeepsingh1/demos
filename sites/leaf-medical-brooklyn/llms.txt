@@ -1,0 +1,11 @@
+# Leaf Medical
+
+> Leaf Medical — top-rated dentists serving Brooklyn, NY. Rated 4.9 stars from 58 reviews. Call (718) 285-3035 today.
+
+- Phone: (718) 285-3035
+- Location: Brooklyn, NY
+- Category: dentists
+- Rating: 4.9 stars from 58 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/leaf-medical-brooklyn/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Leaf%20Medical%20Brooklyn&query_place_id=1524107905043242
+- Services: see the services section on the demo page.

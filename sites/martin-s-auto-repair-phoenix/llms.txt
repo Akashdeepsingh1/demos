@@ -1,0 +1,11 @@
+# Martin's Auto Repair
+
+> Martin's Auto Repair — top-rated auto repair serving Phoenix, AZ. Rated 4.9 stars from 30 reviews. Call (602) 266-5755 today.
+
+- Phone: (602) 266-5755
+- Location: Phoenix, AZ
+- Category: auto repair
+- Rating: 4.9 stars from 30 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/martin-s-auto-repair-phoenix/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Martin%27s%20Auto%20Repair%20Phoenix&query_place_id=3209097719341493
+- Services: see the services section on the demo page.

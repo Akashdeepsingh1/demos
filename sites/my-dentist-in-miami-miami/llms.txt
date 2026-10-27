@@ -1,0 +1,11 @@
+# My Dentist In Miami
+
+> My Dentist In Miami — top-rated dentists serving Miami, FL. Rated 4.0 stars from 2 reviews. Call (305) 222-9899 today.
+
+- Phone: (305) 222-9899
+- Location: Miami, FL
+- Category: dentists
+- Rating: 4.0 stars from 2 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/my-dentist-in-miami-miami/
+- Google listing: https://www.google.com/maps/search/?api=1&query=My%20Dentist%20In%20Miami%20Miami&query_place_id=1421206161731271
+- Services: see the services section on the demo page.

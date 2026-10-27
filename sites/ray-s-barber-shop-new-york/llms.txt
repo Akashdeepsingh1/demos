@@ -1,0 +1,11 @@
+# Ray's Barber Shop
+
+> Ray's Barber Shop — top-rated barbershops serving New York, NY. Rated 5.0 stars from 22 reviews. Call (646) 828-1052 today.
+
+- Phone: (646) 828-1052
+- Location: New York, NY
+- Category: barbershops
+- Rating: 5.0 stars from 22 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/ray-s-barber-shop-new-york/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Ray%27s%20Barber%20Shop%20New%20York&query_place_id=587129246351161
+- Services: see the services section on the demo page.

@@ -1,0 +1,11 @@
+# Sal's Barber Shop
+
+> Sal's Barber Shop — top-rated barbershops serving Seattle, WA. Rated 4.3 stars from 13 reviews. Call (206) 860-7257 today.
+
+- Phone: (206) 860-7257
+- Location: Seattle, WA
+- Category: barbershops
+- Rating: 4.3 stars from 13 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/sal-s-barber-shop-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Sal%27s%20Barber%20Shop%20Seattle&query_place_id=1222347565284992
+- Services: see the services section on the demo page.

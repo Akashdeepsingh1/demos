@@ -1,0 +1,11 @@
+# Moss Alley Motors
+
+> Moss Alley Motors — top-rated auto repair serving Seattle, WA. Rated 5.0 stars from 1 reviews. Call (206) 325-3992 today.
+
+- Phone: (206) 325-3992
+- Location: Seattle, WA
+- Category: auto repair
+- Rating: 5.0 stars from 1 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/moss-alley-motors-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Moss%20Alley%20Motors%20Seattle&query_place_id=456841273015922
+- Services: see the services section on the demo page.

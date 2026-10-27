@@ -1,0 +1,11 @@
+# Heights Pet Grooming
+
+> Heights Pet Grooming — top-rated pet grooming serving Houston, TX. Rated 4.7 stars from 30 reviews. Call (713) 489-2643 today.
+
+- Phone: (713) 489-2643
+- Location: Houston, TX
+- Category: pet grooming
+- Rating: 4.7 stars from 30 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/heights-pet-grooming-houston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Heights%20Pet%20Grooming%20Houston&query_place_id=1197676284354264
+- Services: see the services section on the demo page.

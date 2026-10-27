@@ -1,0 +1,11 @@
+# Brickell Dental
+
+> Brickell Dental — top-rated dentists serving Miami, FL. Rated 3.0 stars from 4 reviews. Call (305) 377-8004 today.
+
+- Phone: (305) 377-8004
+- Location: Miami, FL
+- Category: dentists
+- Rating: 3.0 stars from 4 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/brickell-dental-miami/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Brickell%20Dental%20Miami&query_place_id=1163938164168647
+- Services: see the services section on the demo page.

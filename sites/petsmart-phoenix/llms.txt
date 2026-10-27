@@ -1,0 +1,11 @@
+# PetSmart
+
+> PetSmart — top-rated pet grooming serving Phoenix, AZ. Rated 3.9 stars from 17 reviews. Call (623) 492-9045 today.
+
+- Phone: (623) 492-9045
+- Location: Phoenix, AZ
+- Category: pet grooming
+- Rating: 3.9 stars from 17 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/petsmart-phoenix/
+- Google listing: https://www.google.com/maps/search/?api=1&query=PetSmart%20Phoenix&query_place_id=418289910277203
+- Services: see the services section on the demo page.

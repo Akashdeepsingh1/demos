@@ -1,0 +1,11 @@
+# Medinah Barber Shop
+
+> Medinah Barber Shop — top-rated barbershops serving Chicago, IL. Rated 5.0 stars from 4 reviews. Call (312) 944-1549 today.
+
+- Phone: (312) 944-1549
+- Location: Chicago, IL
+- Category: barbershops
+- Rating: 5.0 stars from 4 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/medinah-barber-shop-chicago/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Medinah%20Barber%20Shop%20Chicago&query_place_id=783580699361827
+- Services: see the services section on the demo page.

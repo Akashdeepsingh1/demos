@@ -1,0 +1,11 @@
+# REX Electric and Technologies
+
+> REX Electric and Technologies — top-rated electricians serving Chicago, IL. Rated 4.7 stars from 15 reviews. Call (312) 251-3620 today.
+
+- Phone: (312) 251-3620
+- Location: Chicago, IL
+- Category: electricians
+- Rating: 4.7 stars from 15 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/rex-electric-and-technologies-chicago/
+- Google listing: https://www.google.com/maps/search/?api=1&query=REX%20Electric%20and%20Technologies%20Chicago&query_place_id=716587862745457
+- Services: see the services section on the demo page.

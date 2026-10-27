@@ -1,0 +1,11 @@
+# Ultra Smile Miami
+
+> Ultra Smile Miami — top-rated dentists serving Miami, FL. Rated 4.9 stars from 57 reviews. Call (305) 372-1020 today.
+
+- Phone: (305) 372-1020
+- Location: Miami, FL
+- Category: dentists
+- Rating: 4.9 stars from 57 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/ultra-smile-miami-miami/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Ultra%20Smile%20Miami%20Miami&query_place_id=626519788693912
+- Services: see the services section on the demo page.

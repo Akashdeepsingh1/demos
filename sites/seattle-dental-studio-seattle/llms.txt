@@ -1,0 +1,11 @@
+# Seattle Dental Studio
+
+> Seattle Dental Studio — top-rated dentists serving Seattle, WA. Rated 5.0 stars from 20 reviews. Call (206) 539-1725 today.
+
+- Phone: (206) 539-1725
+- Location: Seattle, WA
+- Category: dentists
+- Rating: 5.0 stars from 20 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/seattle-dental-studio-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Seattle%20Dental%20Studio%20Seattle&query_place_id=2039424799601992
+- Services: see the services section on the demo page.

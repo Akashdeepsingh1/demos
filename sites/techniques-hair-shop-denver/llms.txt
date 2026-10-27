@@ -1,0 +1,11 @@
+# Techniques Hair Shop
+
+> Techniques Hair Shop — top-rated barbershops serving Denver, CO. Rated 4.7 stars from 17 reviews. Call (720) 502-4459 today.
+
+- Phone: (720) 502-4459
+- Location: Denver, CO
+- Category: barbershops
+- Rating: 4.7 stars from 17 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/techniques-hair-shop-denver/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Techniques%20Hair%20Shop%20Denver&query_place_id=590779595826286
+- Services: see the services section on the demo page.

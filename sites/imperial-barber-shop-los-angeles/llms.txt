@@ -1,0 +1,11 @@
+# Imperial Barber Shop
+
+> Imperial Barber Shop — top-rated barbershops serving Los Angeles, CA. Rated 5.0 stars from 2 reviews. Call (213) 625-2830 today.
+
+- Phone: (213) 625-2830
+- Location: Los Angeles, CA
+- Category: barbershops
+- Rating: 5.0 stars from 2 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/imperial-barber-shop-los-angeles/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Imperial%20Barber%20Shop%20Los%20Angeles&query_place_id=1460596331123963
+- Services: see the services section on the demo page.

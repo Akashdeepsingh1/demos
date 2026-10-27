@@ -1,0 +1,11 @@
+# 3rd and Columbia Dental
+
+> 3rd and Columbia Dental — top-rated dentists serving Seattle, WA. Rated 4.3 stars from 12 reviews. Call (206) 219-2587 today.
+
+- Phone: (206) 219-2587
+- Location: Seattle, WA
+- Category: dentists
+- Rating: 4.3 stars from 12 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/3rd-and-columbia-dental-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=3rd%20and%20Columbia%20Dental%20Seattle&query_place_id=1178778900587869
+- Services: see the services section on the demo page.

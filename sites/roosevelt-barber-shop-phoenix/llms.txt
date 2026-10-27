@@ -1,0 +1,11 @@
+# Roosevelt Barber Shop
+
+> Roosevelt Barber Shop — top-rated barbershops serving Phoenix, AZ. Rated 4.9 stars from 68 reviews. Call (602) 441-1717 today.
+
+- Phone: (602) 441-1717
+- Location: Phoenix, AZ
+- Category: barbershops
+- Rating: 4.9 stars from 68 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/roosevelt-barber-shop-phoenix/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Roosevelt%20Barber%20Shop%20Phoenix&query_place_id=373354331639690
+- Services: see the services section on the demo page.

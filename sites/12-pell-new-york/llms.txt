@@ -1,0 +1,11 @@
+# 12 Pell
+
+> 12 Pell — top-rated barbershops serving New York, NY. Rated 5.0 stars from 37 reviews. Call (212) 365-8957 today.
+
+- Phone: (212) 365-8957
+- Location: New York, NY
+- Category: barbershops
+- Rating: 5.0 stars from 37 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/12-pell-new-york/
+- Google listing: https://www.google.com/maps/search/?api=1&query=12%20Pell%20New%20York&query_place_id=2109464632566711
+- Services: see the services section on the demo page.

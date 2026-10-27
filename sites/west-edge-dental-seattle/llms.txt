@@ -1,0 +1,11 @@
+# West Edge Dental
+
+> West Edge Dental — top-rated dentists serving Seattle, WA. Rated 5.0 stars from 14 reviews. Call (206) 624-8500 today.
+
+- Phone: (206) 624-8500
+- Location: Seattle, WA
+- Category: dentists
+- Rating: 5.0 stars from 14 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/west-edge-dental-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=West%20Edge%20Dental%20Seattle&query_place_id=855303869187876
+- Services: see the services section on the demo page.

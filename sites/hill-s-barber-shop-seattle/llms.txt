@@ -1,0 +1,11 @@
+# Hill's Barber Shop
+
+> Hill's Barber Shop — top-rated barbershops serving Seattle, WA. Rated 5.0 stars from 18 reviews. Call (206) 623-0574 today.
+
+- Phone: (206) 623-0574
+- Location: Seattle, WA
+- Category: barbershops
+- Rating: 5.0 stars from 18 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/hill-s-barber-shop-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Hill%27s%20Barber%20Shop%20Seattle&query_place_id=1412634032776097
+- Services: see the services section on the demo page.

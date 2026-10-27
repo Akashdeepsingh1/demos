@@ -1,0 +1,11 @@
+# Brighter Way Dental Center
+
+> Brighter Way Dental Center — top-rated dentists serving Phoenix, AZ. Rated 5.0 stars from 6 reviews. Call (602) 362-0744 today.
+
+- Phone: (602) 362-0744
+- Location: Phoenix, AZ
+- Category: dentists
+- Rating: 5.0 stars from 6 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/brighter-way-dental-center-phoenix/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Brighter%20Way%20Dental%20Center%20Phoenix&query_place_id=743138293661080
+- Services: see the services section on the demo page.

@@ -1,0 +1,11 @@
+# University Associates In Dentistry
+
+> University Associates In Dentistry — top-rated dentists serving Chicago, IL. Rated 4.8 stars from 34 reviews. Call (312) 704-5511 today.
+
+- Phone: (312) 704-5511
+- Location: Chicago, IL
+- Category: dentists
+- Rating: 4.8 stars from 34 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/university-associates-in-dentistry-chicago/
+- Google listing: https://www.google.com/maps/search/?api=1&query=University%20Associates%20In%20Dentistry%20Chicago&query_place_id=2083462768657485
+- Services: see the services section on the demo page.

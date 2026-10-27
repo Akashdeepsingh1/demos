@@ -1,0 +1,11 @@
+# Handy Electrician
+
+> Handy Electrician — top-rated electricians serving Atlanta, GA. Rated 4.8 stars from 12 reviews. Call (678) 873-5674 today.
+
+- Phone: (678) 873-5674
+- Location: Atlanta, GA
+- Category: electricians
+- Rating: 4.8 stars from 12 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/handy-electrician-atlanta/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Handy%20Electrician%20Atlanta&query_place_id=376217701327612
+- Services: see the services section on the demo page.

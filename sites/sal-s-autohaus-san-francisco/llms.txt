@@ -1,0 +1,11 @@
+# Sal's Autohaus
+
+> Sal's Autohaus — top-rated auto repair serving San Francisco, CA. Rated 5.0 stars from 3 reviews. Call (415) 334-6221 today.
+
+- Phone: (415) 334-6221
+- Location: San Francisco, CA
+- Category: auto repair
+- Rating: 5.0 stars from 3 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/sal-s-autohaus-san-francisco/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Sal%27s%20Autohaus%20San%20Francisco&query_place_id=588085866288231
+- Services: see the services section on the demo page.

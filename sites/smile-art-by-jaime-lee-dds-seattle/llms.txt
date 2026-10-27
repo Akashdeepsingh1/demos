@@ -1,0 +1,11 @@
+# Smile Art by Jaime Lee DDS
+
+> Smile Art by Jaime Lee DDS — top-rated dentists serving Seattle, WA. Rated 4.1 stars from 10 reviews. Call (206) 325-7200 today.
+
+- Phone: (206) 325-7200
+- Location: Seattle, WA
+- Category: dentists
+- Rating: 4.1 stars from 10 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/smile-art-by-jaime-lee-dds-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Smile%20Art%20by%20Jaime%20Lee%20DDS%20Seattle&query_place_id=347072840973515
+- Services: see the services section on the demo page.

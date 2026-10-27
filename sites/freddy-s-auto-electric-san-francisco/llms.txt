@@ -1,0 +1,11 @@
+# Freddy's Auto Electric
+
+> Freddy's Auto Electric — top-rated auto repair serving San Francisco, CA. Rated 5.0 stars from 1 reviews. Call (415) 863-2510 today.
+
+- Phone: (415) 863-2510
+- Location: San Francisco, CA
+- Category: auto repair
+- Rating: 5.0 stars from 1 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/freddy-s-auto-electric-san-francisco/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Freddy%27s%20Auto%20Electric%20San%20Francisco&query_place_id=1284257228828226
+- Services: see the services section on the demo page.

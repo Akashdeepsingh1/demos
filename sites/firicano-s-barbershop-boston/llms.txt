@@ -1,0 +1,11 @@
+# Firicano's Barbershop
+
+> Firicano's Barbershop — top-rated barbershops serving Boston, MA. Rated 5.0 stars from 29 reviews. Call (617) 557-9141 today.
+
+- Phone: (617) 557-9141
+- Location: Boston, MA
+- Category: barbershops
+- Rating: 5.0 stars from 29 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/firicano-s-barbershop-boston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Firicano%27s%20Barbershop%20Boston&query_place_id=473433417929347
+- Services: see the services section on the demo page.

@@ -1,0 +1,11 @@
+# Kenny Electric
+
+> Kenny Electric — top-rated electricians serving Denver, CO. Rated 4.2 stars from 15 reviews. Call (303) 605-2100 today.
+
+- Phone: (303) 605-2100
+- Location: Denver, CO
+- Category: electricians
+- Rating: 4.2 stars from 15 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/kenny-electric-denver/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Kenny%20Electric%20Denver&query_place_id=420410450109003
+- Services: see the services section on the demo page.

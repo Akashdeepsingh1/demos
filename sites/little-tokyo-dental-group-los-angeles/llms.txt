@@ -1,0 +1,11 @@
+# Little Tokyo Dental Group
+
+> Little Tokyo Dental Group — top-rated dentists serving Los Angeles, CA. Rated 5.0 stars from 4 reviews. Call (213) 680-9935 today.
+
+- Phone: (213) 680-9935
+- Location: Los Angeles, CA
+- Category: dentists
+- Rating: 5.0 stars from 4 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/little-tokyo-dental-group-los-angeles/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Little%20Tokyo%20Dental%20Group%20Los%20Angeles&query_place_id=1109105486689646
+- Services: see the services section on the demo page.

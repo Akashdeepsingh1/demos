@@ -1,0 +1,11 @@
+# Fulton-Desplaines Garage
+
+> Fulton-Desplaines Garage — top-rated auto repair serving Chicago, IL. Rated 5.0 stars from 8 reviews. Call (312) 263-9872 today.
+
+- Phone: (312) 263-9872
+- Location: Chicago, IL
+- Category: auto repair
+- Rating: 5.0 stars from 8 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/fulton-desplaines-garage-chicago/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Fulton-Desplaines%20Garage%20Chicago&query_place_id=1692424247960169
+- Services: see the services section on the demo page.

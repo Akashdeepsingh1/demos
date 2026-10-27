@@ -1,0 +1,11 @@
+# Barber on Pearl
+
+> Barber on Pearl — top-rated barbershops serving Brooklyn, NY. Rated 4.7 stars from 41 reviews. Call (718) 855-3090 today.
+
+- Phone: (718) 855-3090
+- Location: Brooklyn, NY
+- Category: barbershops
+- Rating: 4.7 stars from 41 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/barber-on-pearl-brooklyn/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Barber%20on%20Pearl%20Brooklyn&query_place_id=738834573892051
+- Services: see the services section on the demo page.

@@ -1,0 +1,11 @@
+# Shelly's Pet Grooming
+
+> Shelly's Pet Grooming — top-rated pet grooming serving Tempe, AZ. Rated 5.0 stars from 20 reviews. Call (480) 730-5133 today.
+
+- Phone: (480) 730-5133
+- Location: Tempe, AZ
+- Category: pet grooming
+- Rating: 5.0 stars from 20 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/shelly-s-pet-grooming-tempe/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Shelly%27s%20Pet%20Grooming%20Tempe&query_place_id=1032793774088621
+- Services: see the services section on the demo page.

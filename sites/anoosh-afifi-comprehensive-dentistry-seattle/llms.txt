@@ -1,0 +1,11 @@
+# Anoosh Afifi Comprehensive Dentistry
+
+> Anoosh Afifi Comprehensive Dentistry — top-rated dentists serving Seattle, WA. Rated 4.4 stars from 9 reviews. Call (206) 323-9000 today.
+
+- Phone: (206) 323-9000
+- Location: Seattle, WA
+- Category: dentists
+- Rating: 4.4 stars from 9 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/anoosh-afifi-comprehensive-dentistry-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Anoosh%20Afifi%20Comprehensive%20Dentistry%20Seattle&query_place_id=457848802627500
+- Services: see the services section on the demo page.

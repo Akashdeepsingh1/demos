@@ -1,0 +1,11 @@
+# Mario's Auto Repair
+
+> Mario's Auto Repair — top-rated auto repair serving Miami, FL. Rated 5.0 stars from 7 reviews. Call (305) 815-1067 today.
+
+- Phone: (305) 815-1067
+- Location: Miami, FL
+- Category: auto repair
+- Rating: 5.0 stars from 7 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/mario-s-auto-repair-miami/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Mario%27s%20Auto%20Repair%20Miami&query_place_id=448535123834517
+- Services: see the services section on the demo page.

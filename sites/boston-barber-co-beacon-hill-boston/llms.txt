@@ -1,0 +1,11 @@
+# Boston Barber Co. Beacon Hill
+
+> Boston Barber Co. Beacon Hill — top-rated barbershops serving Boston, MA. Rated 4.8 stars from 64 reviews. Call (617) 263-0150 today.
+
+- Phone: (617) 263-0150
+- Location: Boston, MA
+- Category: barbershops
+- Rating: 4.8 stars from 64 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/boston-barber-co-beacon-hill-boston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Boston%20Barber%20Co.%20Beacon%20Hill%20Boston&query_place_id=442656821079951
+- Services: see the services section on the demo page.

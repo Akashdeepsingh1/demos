@@ -1,0 +1,11 @@
+# Popular Mechanix
+
+> Popular Mechanix — top-rated auto repair serving San Francisco, CA. Rated 4.5 stars from 4 reviews. Call (415) 621-0376 today.
+
+- Phone: (415) 621-0376
+- Location: San Francisco, CA
+- Category: auto repair
+- Rating: 4.5 stars from 4 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/popular-mechanix-san-francisco/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Popular%20Mechanix%20San%20Francisco&query_place_id=466641148291482
+- Services: see the services section on the demo page.

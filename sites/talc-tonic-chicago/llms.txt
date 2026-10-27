@@ -1,0 +1,11 @@
+# Talc + Tonic
+
+> Talc + Tonic — top-rated barbershops serving Chicago, IL. Rated 4.8 stars from 23 reviews. Call (312) 285-2318 today.
+
+- Phone: (312) 285-2318
+- Location: Chicago, IL
+- Category: barbershops
+- Rating: 4.8 stars from 23 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/talc-tonic-chicago/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Talc%20%2B%20Tonic%20Chicago&query_place_id=584121446710715
+- Services: see the services section on the demo page.

@@ -1,0 +1,11 @@
+# David E. Azar
+
+> David E. Azar — dentists serving New York, NY. Rated 4.6 stars from 16 Google reviews. Call (212) 406-3500.
+
+- Phone: (212) 406-3500
+- Location: New York, NY
+- Category: dentists
+- Rating: 4.6 stars from 16 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/david-e-azar-new-york/
+- Google listing: https://www.google.com/maps/search/?api=1&query=David%20E.%20Azar%20New%20York&query_place_id=1522989315006086
+- Services: see the services section on the demo page.

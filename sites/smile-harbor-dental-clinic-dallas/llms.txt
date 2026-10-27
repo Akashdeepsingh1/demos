@@ -1,0 +1,11 @@
+# Smile Harbor Dental Clinic
+
+> Smile Harbor Dental Clinic — top-rated dentists serving Dallas, TX. Rated 4.7 stars from 7 reviews. Call (855) 235-0932 today.
+
+- Phone: (855) 235-0932
+- Location: Dallas, TX
+- Category: dentists
+- Rating: 4.7 stars from 7 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/smile-harbor-dental-clinic-dallas/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Smile%20Harbor%20Dental%20Clinic%20Dallas&query_place_id=1735343806803993
+- Services: see the services section on the demo page.

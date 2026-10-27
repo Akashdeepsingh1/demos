@@ -1,0 +1,11 @@
+# Sun Devil Auto
+
+> Sun Devil Auto — top-rated auto repair serving Phoenix, AZ. Rated 3.2 stars from 5 reviews. Call (602) 536-7346 today.
+
+- Phone: (602) 536-7346
+- Location: Phoenix, AZ
+- Category: auto repair
+- Rating: 3.2 stars from 5 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/sun-devil-auto-phoenix/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Sun%20Devil%20Auto%20Phoenix&query_place_id=848314916854240
+- Services: see the services section on the demo page.

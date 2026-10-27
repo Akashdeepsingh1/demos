@@ -1,0 +1,11 @@
+# Rey's Auto Repair Services
+
+> Rey's Auto Repair Services — auto repair serving Miami, FL. Rated 5.0 stars from 6 Google reviews. Call (305) 541-7339.
+
+- Phone: (305) 541-7339
+- Location: Miami, FL
+- Category: auto repair
+- Rating: 5.0 stars from 6 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/rey-s-auto-repair-services-miami/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Rey%27s%20Auto%20Repair%20Services%20Miami&query_place_id=2038910402960230
+- Services: see the services section on the demo page.

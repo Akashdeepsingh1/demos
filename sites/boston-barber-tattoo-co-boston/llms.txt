@@ -1,0 +1,11 @@
+# Boston Barber & Tattoo Co.
+
+> Boston Barber & Tattoo Co. — top-rated barbershops serving Boston, MA. Rated 4.8 stars from 520 reviews. Call (617) 742-0611 today.
+
+- Phone: (617) 742-0611
+- Location: Boston, MA
+- Category: barbershops
+- Rating: 4.8 stars from 520 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/boston-barber-tattoo-co-boston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Boston%20Barber%20%26%20Tattoo%20Co.%20Boston&query_place_id=1091594081457068
+- Services: see the services section on the demo page.

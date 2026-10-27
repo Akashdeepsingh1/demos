@@ -1,0 +1,11 @@
+# Downtown Dental
+
+> Downtown Dental — top-rated dentists serving Los Angeles, CA. Rated 4.4 stars from 26 reviews. Call (213) 620-5777 today.
+
+- Phone: (213) 620-5777
+- Location: Los Angeles, CA
+- Category: dentists
+- Rating: 4.4 stars from 26 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/downtown-dental-los-angeles/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Downtown%20Dental%20Los%20Angeles&query_place_id=1778385132503466
+- Services: see the services section on the demo page.

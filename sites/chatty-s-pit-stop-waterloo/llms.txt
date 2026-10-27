@@ -1,0 +1,11 @@
+# Chatty's Pit Stop
+
+> Chatty's Pit Stop — top-rated auto repair serving Waterloo, WI. Rated 4.5 stars from 32 reviews. Call (920) 478-2268 today.
+
+- Phone: (920) 478-2268
+- Location: Waterloo, WI
+- Category: auto repair
+- Rating: 4.5 stars from 32 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/chatty-s-pit-stop-waterloo/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Chatty%27s%20Pit%20Stop%20Waterloo&query_place_id=642210003530806
+- Services: see the services section on the demo page.

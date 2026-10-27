@@ -1,0 +1,11 @@
+# Downtown Dentist
+
+> Downtown Dentist — top-rated dentists serving Houston, TX. Rated 5.0 stars from 4 reviews. Call (713) 658-9591 today.
+
+- Phone: (713) 658-9591
+- Location: Houston, TX
+- Category: dentists
+- Rating: 5.0 stars from 4 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/downtown-dentist-houston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Downtown%20Dentist%20Houston&query_place_id=730788467993320
+- Services: see the services section on the demo page.

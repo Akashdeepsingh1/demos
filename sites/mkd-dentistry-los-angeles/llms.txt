@@ -1,0 +1,11 @@
+# MKD Dentistry
+
+> MKD Dentistry — top-rated dentists serving Los Angeles, CA. Rated 4.9 stars from 16 reviews. Call (213) 550-2697 today.
+
+- Phone: (213) 550-2697
+- Location: Los Angeles, CA
+- Category: dentists
+- Rating: 4.9 stars from 16 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/mkd-dentistry-los-angeles/
+- Google listing: https://www.google.com/maps/search/?api=1&query=MKD%20Dentistry%20Los%20Angeles&query_place_id=757164268877556
+- Services: see the services section on the demo page.

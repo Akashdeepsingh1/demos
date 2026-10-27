@@ -1,0 +1,11 @@
+# Bishop Electrical Enterprises
+
+> Bishop Electrical Enterprises — top-rated electricians serving Denver, CO. Rated 5.0 stars from 2 reviews. Call (410) 501-7043 today.
+
+- Phone: (410) 501-7043
+- Location: Denver, CO
+- Category: electricians
+- Rating: 5.0 stars from 2 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/bishop-electrical-enterprises-denver/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Bishop%20Electrical%20Enterprises%20Denver&query_place_id=598590331714656
+- Services: see the services section on the demo page.

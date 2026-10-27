@@ -1,0 +1,11 @@
+# Dental Health and Wellness Boston
+
+> Dental Health and Wellness Boston — top-rated dentists serving Boston, MA. Rated 4.9 stars from 27 reviews. Call (617) 742-1220 today.
+
+- Phone: (617) 742-1220
+- Location: Boston, MA
+- Category: dentists
+- Rating: 4.9 stars from 27 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/dental-health-and-wellness-boston-boston/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Dental%20Health%20and%20Wellness%20Boston%20Boston&query_place_id=357304059937107
+- Services: see the services section on the demo page.

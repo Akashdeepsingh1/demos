@@ -1,0 +1,11 @@
+# Fresh Smile Seattle
+
+> Fresh Smile Seattle — top-rated dentists serving Seattle, WA. Rated 5.0 stars from 5 reviews. Call (206) 325-3539 today.
+
+- Phone: (206) 325-3539
+- Location: Seattle, WA
+- Category: dentists
+- Rating: 5.0 stars from 5 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/fresh-smile-seattle-seattle/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Fresh%20Smile%20Seattle%20Seattle&query_place_id=462845902320550
+- Services: see the services section on the demo page.

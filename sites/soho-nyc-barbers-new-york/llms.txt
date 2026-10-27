@@ -1,0 +1,11 @@
+# Soho NYC Barbers
+
+> Soho NYC Barbers — top-rated barbershops serving New York, NY. Rated 5.0 stars from 11 reviews. Call (212) 966-6069 today.
+
+- Phone: (212) 966-6069
+- Location: New York, NY
+- Category: barbershops
+- Rating: 5.0 stars from 11 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/soho-nyc-barbers-new-york/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Soho%20NYC%20Barbers%20New%20York&query_place_id=426103719462622
+- Services: see the services section on the demo page.

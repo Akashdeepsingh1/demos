@@ -1,0 +1,11 @@
+# Cuts By Carlos
+
+> Cuts By Carlos — top-rated barbershops serving Dallas, TX. Rated 5.0 stars from 45 reviews. Call (214) 587-6425 today.
+
+- Phone: (214) 587-6425
+- Location: Dallas, TX
+- Category: barbershops
+- Rating: 5.0 stars from 45 Google reviews
+- Demo page: https://akashdeepsingh1.github.io/demos/sites/cuts-by-carlos-dallas/
+- Google listing: https://www.google.com/maps/search/?api=1&query=Cuts%20By%20Carlos%20Dallas&query_place_id=769966407659997
+- Services: see the services section on the demo page.
